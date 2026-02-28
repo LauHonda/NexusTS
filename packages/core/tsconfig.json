@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "CommonJS",
+    "declaration": true,       // 生成 .d.ts 定义文件供其他层使用
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,         // 必须开启，支持被引用
+    "strict": true,
+    "rootDir": "./src",
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*"]
+}

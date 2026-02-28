@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "CommonJS",
+    "sourceMap": true,
+    "composite": true,
+    "strict": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    // 这里将来会添加 Puerts 的 Unreal 类型定义路径
+    // "typeRoots": ["../../projects/UnrealProject/Puerts/Typing"] 
+  },
+  "references": [
+    { "path": "../core" } // 引用核心层
+  ],
+  "include": ["src/**/*"]
+}

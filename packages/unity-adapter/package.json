@@ -1,0 +1,7 @@
+{
+  "name": "@my-framework/unity-adapter",
+  "version": "1.0.0",
+  "dependencies":{
+	"@my-framework/core":"1.0.0"
+	}
+}

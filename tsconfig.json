@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/unity-adapter" },
+    { "path": "./packages/unreal-adapter" }
+  ]
+}
