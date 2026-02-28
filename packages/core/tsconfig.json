@@ -10,5 +10,6 @@
     "rootDir": "./src",
     "outDir": "./dist"
   },
+  "references": [],
   "include": ["src/**/*"]
 }

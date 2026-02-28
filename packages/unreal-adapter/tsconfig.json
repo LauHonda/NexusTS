@@ -5,10 +5,11 @@
     "sourceMap": true,
     "composite": true,
     "strict": true,
+    "skipLibCheck": true,
     "rootDir": "./src",
     "outDir": "./dist",
     // 这里将来会添加 Puerts 的 Unreal 类型定义路径
-    // "typeRoots": ["../../projects/UnrealProject/Puerts/Typing"] 
+    "typeRoots": ["../../projects/Unreal/Typing", "../../node_modules/@types"] 
   },
   "references": [
     { "path": "../core" } // 引用核心层
